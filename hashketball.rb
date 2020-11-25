@@ -188,7 +188,8 @@ def big_shoe_rebounds
   new_play = 0
 
 game_hash.each do |key, value|
-  binding.pry
+  value[:players].each do |size|
+  end
 end
-
+new_play
 end
