@@ -190,6 +190,7 @@ game_hash.each do |key, value|
   value[:players].each do |size|
     if size[:shoe] > new_play
       size[:shoe] = new_play
+      binding.pry
     end
   end
 end
