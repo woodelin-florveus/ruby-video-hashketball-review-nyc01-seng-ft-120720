@@ -190,7 +190,7 @@ def big_shoe_rebounds
 game_hash.each do |key, value|
   value[:players].each do |size|
     if value[:players][:shoe] > new_play
-
+        value[:players][:shoe] = new_play
     end
   end
 end
